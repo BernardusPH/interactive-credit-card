@@ -34,6 +34,9 @@
   align-items: center;
   font-family: var(--font-family);
 }
+.body >*{
+  margin-top: auto;
+}
 
 img {
   display: block;
