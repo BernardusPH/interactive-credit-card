@@ -23,7 +23,7 @@
 
 .body {
   min-height: 100vh;
-  background-image: url("./images/bg-main-desktop.png");
+  background-image: url("/images/bg-main-desktop.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: 33vw 100%;
