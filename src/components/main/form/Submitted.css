@@ -1,0 +1,38 @@
+.details-confirmed{
+    text-align: center;
+    margin: auto;
+    min-width: 395px;
+    padding: 1rem;
+}
+
+.checkMark{
+    width: 100px;
+    aspect-ratio: 1/1;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.details-confirmed >h2{
+    font-size: 2rem;
+    letter-spacing: 4px;
+
+}
+.details-confirmed >p{
+   margin: 1rem 0 2rem 0;
+   color: var(--Dark-grayish-violet);
+  
+}
+.details-confirmed> button{
+    width: 100%;
+    padding: .7rem;
+    border-radius: 5px;
+    color: var(--White);
+    background-color:var(--Very-dark-violet) ;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+}
+.details-confirmed> button:hover,.details-confirmed> button:focus-visible{
+    background-color: var(--Dark-grayish-violet);
+  
+}

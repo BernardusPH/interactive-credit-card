@@ -1,0 +1,16 @@
+.cardContainer{
+    position: relative;
+    color:white;
+    
+}
+@media(width<=900px){
+    .cardContainer{
+        min-height:425px;
+        margin-top: 3rem;
+    }
+}
+@media(width<=570px){
+    .cardContainer{
+        min-height: 220px;
+    }
+}

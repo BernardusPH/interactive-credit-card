@@ -1,0 +1,41 @@
+.backCard{
+    width: 450px;
+    background-image: url("/images/bg-card-back.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    margin: 2rem 0 0 auto;
+    aspect-ratio: 2/1;  
+    position: relative;
+}
+.back-card-CVC{
+    position: absolute;
+    top:50%;
+    left:calc(60% + 100px);
+    transform: translateY(-50%);
+    font-size: clamp(.68rem, 2.4vw,.78rem); 
+   
+}
+
+@media (width<=900px) {
+    .backCard{
+        width:clamp(325px, 80%, 450px);
+        margin:0;
+        position: absolute;
+        z-index: 1;
+        top:-30px;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+}
+@media (width<=570px) {
+    .backCard{
+       width:300px;
+       transform: translateX(-40%);
+       
+    }
+    .back-card-CVC{
+        left:calc(60% + 60px);
+    }
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+:root {
+  --font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+
+  --White: hsl(0, 0%, 100%);
+  --Light-grayish-violet: hsl(270, 3%, 87%);
+  --Dark-grayish-violet: hsl(279, 6%, 55%);
+  --Very-dark-violet: hsl(278, 68%, 11%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 1rem;
+}
+
+.body {
+  min-height: 100vh;
+  background-image: url("./images/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 33vw 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+}
+
+img {
+  display: block;
+}
+/* html{
+    color-scheme: dark light;
+} */
+
+@media (width<=900px) {
+  .body {
+    background-image: url("/images/bg-main-mobile.png");
+    background-position: top;
+    background-size: 100% clamp(240px, 42vw, 500px);
+    align-items: stretch;
+  }
+}

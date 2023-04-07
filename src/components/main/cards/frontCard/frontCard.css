@@ -1,0 +1,34 @@
+.frontCard {
+    width: 450px;
+    background-image: url("/images/bg-card-front.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 auto 2rem 0;
+    aspect-ratio: 2/1;
+    padding: 1.5rem;
+    display: grid;
+}
+
+.CardLogo {
+    width: 25%;
+}
+@media (width<=900px) {
+    .frontCard{
+        width:clamp(325px, 80%, 450px);
+        margin:0;
+        position: absolute;
+        z-index: 99999;
+        left:50%;
+        transform: translateX(-50%);
+        bottom:0;
+    }
+}
+@media (width<=570px) {
+    .frontCard{
+      width:300px;
+      padding:1rem;
+      transform: translateX(-60%);
+    }
+}

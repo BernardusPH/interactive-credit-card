@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    width: 90%;
+    gap: 2rem;
+    max-width: 1180px;
+
+}
+
+main>* {
+    width: 50%;
+}
+
+@media (width<=900px) {
+    main {
+        flex-direction: column;
+        width: 95%;
+        align-items: center;
+       
+    }
+    main>*{
+        width:100%;;
+    }
+}
