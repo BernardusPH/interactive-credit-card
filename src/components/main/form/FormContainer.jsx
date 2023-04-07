@@ -1,6 +1,6 @@
 import Form from "./Form.jsx"
 import Submitted from "./Submitted.jsx";
-import "./formcontainer.css";
+import "./FormContainer.css";
 import CardDetails from "../../../store/cardDetails-context.jsx";
 import { useContext } from "react";
 
