@@ -7,7 +7,7 @@ function Form() {
   const { cardForm } = useContext(CardDetails);
 
   return (
-    <form className="form" onSubmit={cardForm.handleSubmit}>
+    <form className="form" onSubmit={cardForm.handleSubmit} autoComplete="off">
       <div className="card-name">
         <label htmlFor="fullName">CARDHOLDER NAME</label>
         <input
