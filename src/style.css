@@ -22,6 +22,7 @@
 }
 
 .body {
+ 
   min-height: 100vh;
   background-image: url("/images/bg-main-desktop.png");
   background-repeat: no-repeat;
@@ -50,6 +51,6 @@ img {
     background-image: url("/images/bg-main-mobile.png");
     background-position: top;
     background-size: 100% clamp(240px, 42vw, 500px);
-    align-items: stretch;
+    align-items: center;
   }
 }
